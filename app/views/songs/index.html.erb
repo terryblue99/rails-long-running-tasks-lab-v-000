@@ -1,6 +1,6 @@
 <!-- controls to upload a file to the index view -->
 <%= form_tag songs_upload_path, multipart: true do %>
-<%= file_field_tag :artist_songs %>
+<%= file_field_tag :file %>
 <%= submit_tag "Import Artist Songs" %>
 <% end %>
 <ul>
